@@ -17,12 +17,6 @@ Api rest Spring Boot
 9. Validations
 10. Increase functionality (user administration, relate loyality and prices, etc)
 
-contract-first --> Because I can define exactly what is needed and what is expected??
-I use an Bottom-up design through incremental and iterative development because of Rest server and composition is easier to apply TDD
-I start developing upper layer, from view to model, that so mocking lower layers.
-
-Integration testing --> I do this instead of unit tests
-
 ## Libraries
 Jackson JSON library to automatically marshal DTOs intances with Spring.
 Spring MVC
