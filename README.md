@@ -21,7 +21,7 @@ Api rest Spring Boot
 Jackson JSON library to automatically marshal DTOs intances with Spring.
 Spring MVC
 Spring Boot
-Spring Test
+Spring Test, AssertJ, MockitoBDD
 
 ## Technologies
 Java 8
@@ -84,4 +84,8 @@ http://localhost:8080/rental/return?gameId=1,2,3,4&userId=1
     }
   ]
 }
+
+## How to run test
+
+mvn test
 

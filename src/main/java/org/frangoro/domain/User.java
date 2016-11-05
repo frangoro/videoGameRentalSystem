@@ -19,6 +19,16 @@ public class User {
 	private String name;
 	private Set<Rental> rentals = new HashSet(0);
 	
+	public User () {
+		
+	}
+	
+	public User (Long id, Long points, String name) {
+		this.id = id;
+		this.points = points;
+		this.name = name;
+	}
+	
 	@Id
 	@Column(name = "ID", unique = true, nullable = false)
 	public Long getId() {

@@ -1,7 +1,14 @@
 package org.frangoro.dto;
 
-public class RentInvoiceDto {
+import java.io.Serializable;
 
+public class RentInvoiceDto implements Serializable {
+
+	/**
+	 * Serial version
+	 */
+	private static final long serialVersionUID = 1L;
+	
 	private Double price;
 	private String gameName;
 	private Integer days;

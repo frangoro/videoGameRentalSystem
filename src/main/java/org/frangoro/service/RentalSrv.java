@@ -7,7 +7,22 @@ import org.frangoro.dto.ReturnInvoiceDto;
 
 public interface RentalSrv {
 
-		public List<RentInvoiceDto> rentGame(Long[] gameId, Integer[] days, Long userId);
+	/**
+	 * Rent games.
+	 * 
+	 * @param gameId
+	 * @param days
+	 * @param userId
+	 * @return
+	 */
+	public List<RentInvoiceDto> rentGame(Long[] gameId, Integer[] days, Long userId);
 
-		public ReturnInvoiceDto returnGame(Long[] gameId, Long userId);
+	/**
+	 * Return games.
+	 * 
+	 * @param gameId
+	 * @param userId
+	 * @return
+	 */
+	public ReturnInvoiceDto returnGame(Long[] gameId, Long userId);
 }
